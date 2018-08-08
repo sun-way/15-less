@@ -1,7 +1,5 @@
 <?php
 require_once 'core/core.php';
-
-
 /* Параметры подключения к БД и загрузчик классов размещен в файле core/core.php */
 /* Выполнение задач в зависимости от нажатых кнопок */
 $tableName = getParam('tableName');
