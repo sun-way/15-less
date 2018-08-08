@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+.form {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul {
+    text-align: left;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+table th {
+    background: #eee;
+}
